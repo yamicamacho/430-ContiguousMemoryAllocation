@@ -1,0 +1,18 @@
+Enter commands!
+R test.txt
+Allocated 10 bytes for process A using First-fit
+Allocated 10 bytes for process X using First-fit
+Allocated 10 bytes for process B using First-fit
+Allocated 20 bytes for process X using First-fit
+Allocated 5 bytes for process C using First-fit
+Allocated 15 bytes for process X using First-fit
+Allocated 5 bytes for process D using First-fit
+Freed all allocations owned by process X
+AAAAAAAAAA..........BBBBBBBBBB....................CCCCC...............DDDDD.....
+Not enough contiguous memory for process E
+Allocated 15 bytes for process F using First-fit
+Allocated 3 bytes for process G using Best-fit
+Allocated 1 bytes for process H using Worst-fit
+AAAAAAAAAA..........BBBBBBBBBBFFFFFFFFFFFFFFFGGG..CCCCCH..............DDDDD.....
+Memory Compacted
+Commands executed from file: test.txt
